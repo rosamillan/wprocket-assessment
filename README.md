@@ -8,8 +8,8 @@ This is a task that helps clear a client's cache at a specific time. The followi
 
 <strong>Note:</strong> If you place it in a different location, you need to edit the path in require( 'wp-load.php' ); above to match its location.
 
-* Next, you need to create a cron job, from your web hosting control panel. You can set the cron job to the time you want the cache cleared.
-For this you need to create the cron Job example: </br>
+* Next, Client needs to create a cron job, from their web hosting control panel. They can set the cron job to the time they want the cache cleared.
+For this they need to create the cron Job, example: </br>
 <code> wget -q -O - http://yourdomain.com/wprocket-clean-domain.php >/dev/null 2>&1 </code> 
 
 <strong>Note:</strong> Please, remember to replace "yourdomain.com" with your actual domain. Each server has different ways of adding a Cron job, so if the client is not sure how to do it, he should ask his hosting provider for help.
