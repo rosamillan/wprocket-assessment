@@ -16,7 +16,7 @@ For this they need to create the cron Job, example: </br>
 
 If the client is using cPanel, share this short video for reference: <a href="https://recordit.co/A4Jj1Kg7x9">video</a>
 
-# troubleshoot based on the solution provided above
+# Troubleshoot based on the solution provided above
 1. First, I would check the cron job created before is correct and that the client has uploaded the file with the correct code in this case: <a href="https://github.com/rosamillan/wprocket-assessment/blob/main/wprocket-clean-domain.php">"wprocket-clean-domain.php".</a>
 2. After verifying that both are correct, through the URL: http://yourdomain.com/wprocket-clean-domain.php I would execute the script to verify that it is not a server-side error.
 3. I would also activate the PHP and WordPress error logs and verify if there is an error. 
